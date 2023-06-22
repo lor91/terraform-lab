@@ -19,7 +19,7 @@ locals {
         ssh_user            = "mike"
         mac_address         = "02:07:14:b4:37:24"
         disk_type           = "virtio"
-        storage_dev         = "groot"
+        storage_dev         = "local-lvm"
         network_bridge_type = "vmbr0"
         network_model       = "virtio"
         cloud_init_pass     = ""
