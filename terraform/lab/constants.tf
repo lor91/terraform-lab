@@ -2,7 +2,7 @@ locals {
   machine_map = {
     machines = {
       m1 = {
-        name                = "talos-dns"
+        name                = "terraform-build-test"
         target_node         = "proxmox" # Name of the Proxmox Server
         qemu_os             = "other" # Type of Operating System
         os_type             = "cloud-init" # Set to cloud-init to utilize templates
