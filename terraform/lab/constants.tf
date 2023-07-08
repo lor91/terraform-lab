@@ -27,7 +27,6 @@ locals {
         network_firewall    = false #defaults to false
         dns_servers         = "192.168.1.1 8.8.8.8 192.168.1.1 127.0.0.1"
       }
-    }
     m2 = {
         name                = "Ansible-Child-1"
         target_node         = "proxmox" # Name of the Proxmox Server
@@ -80,7 +79,7 @@ locals {
         network_firewall    = false #defaults to false
         dns_servers         = "192.168.1.1 8.8.8.8 192.168.1.1 127.0.0.1"
       }
-      
+    }
   }
 
   machines = lookup(local.machine_map, "machines", {})
