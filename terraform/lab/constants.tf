@@ -2,7 +2,7 @@ locals {
   machine_map = {
     machines = {
       m1 = {
-        name                = "terraform-build-test"
+        name                = "Ansible-Parent"
         target_node         = "proxmox" # Name of the Proxmox Server
         qemu_os             = "other" # Type of Operating System
         os_type             = "cloud-init" # Set to cloud-init to utilize templates
@@ -29,7 +29,7 @@ locals {
       }
     }
     m2 = {
-        name                = "terraform-build-test"
+        name                = "Ansible-Child-1"
         target_node         = "proxmox" # Name of the Proxmox Server
         qemu_os             = "other" # Type of Operating System
         os_type             = "cloud-init" # Set to cloud-init to utilize templates
@@ -55,7 +55,7 @@ locals {
         dns_servers         = "192.168.1.1 8.8.8.8 192.168.1.1 127.0.0.1"
       }
       m3 = {
-        name                = "terraform-build-test"
+        name                = "Ansible-Child-2"
         target_node         = "proxmox" # Name of the Proxmox Server
         qemu_os             = "other" # Type of Operating System
         os_type             = "cloud-init" # Set to cloud-init to utilize templates
