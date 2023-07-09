@@ -12,7 +12,7 @@ locals {
         cores               = 1
         socket              = 1
         memory              = 1048
-        storage             = "25G" # Size of Secondary hard drive assiged as bootable
+        storage             = "20G" # Size of Secondary hard drive assiged as bootable
         ip_address          = "192.168.1.150"
         gateway             = "192.168.1.1"
         description         = "Ansible Parent"
@@ -38,7 +38,7 @@ locals {
         cores               = 1
         socket              = 1
         memory              = 1048
-        storage             = "25G" # Size of Secondary hard drive assiged as bootable
+        storage             = "20G" # Size of Secondary hard drive assiged as bootable
         ip_address          = "192.168.1.151"
         gateway             = "192.168.1.1"
         description         = "Ansible Child 1"
@@ -64,7 +64,7 @@ locals {
         cores               = 1
         socket              = 1
         memory              = 1048
-        storage             = "25G" # Size of Secondary hard drive assiged as bootable
+        storage             = "20G" # Size of Secondary hard drive assiged as bootable
         ip_address          = "192.168.1.152"
         gateway             = "192.168.1.1"
         description         = "Ansible Child 2"
