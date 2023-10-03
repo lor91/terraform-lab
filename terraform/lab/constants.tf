@@ -22,7 +22,7 @@ locals {
         storage_dev         = "groot"
         network_bridge_type = "vmbr0"
         network_model       = "virtio"
-        #cloud_init_pass     = "<your password>"
+        cloud_init_pass     = ""
         automatic_reboot    = true
         network_firewall    = false #defaults to false
         dns_servers         = "192.168.1.1 8.8.8.8 192.168.1.1 127.0.0.1"
@@ -48,7 +48,7 @@ locals {
         storage_dev         = "groot"
         network_bridge_type = "vmbr0"
         network_model       = "virtio"
-       # cloud_init_pass     = "<your password>"
+        cloud_init_pass     = ""
         automatic_reboot    = true
         network_firewall    = false #defaults to false
         dns_servers         = "192.168.1.1 8.8.8.8 192.168.1.1 127.0.0.1"
@@ -74,7 +74,7 @@ locals {
         storage_dev         = "groot"
         network_bridge_type = "vmbr0"
         network_model       = "virtio"
-        #cloud_init_pass     = "<your password>"
+        cloud_init_pass     = ""
         automatic_reboot    = true
         network_firewall    = false #defaults to false
         dns_servers         = "192.168.1.1 8.8.8.8 192.168.1.1 127.0.0.1"
